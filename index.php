@@ -62,7 +62,6 @@ echo "Total Result:" . $result;
    "banana" => 40
  ]; 
 
-
 /**
  * Apple = 10
  * Orange = 20
