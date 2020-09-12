@@ -90,3 +90,5 @@ $total=0;
 
  prettyPrint($a);
  prettyPrint($b);
+ // Array 
+
