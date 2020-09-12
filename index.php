@@ -83,3 +83,8 @@ $total=0;
   $total=$total+$value;
  }
  echo "total=" . $total;
+
+ // Array 
+ $array = ['fruits' => ['apple','banana', 'orange'], 'electronics'=> ['mobile','tv','laptop']]; 
+
+ prettyPrint($array);
