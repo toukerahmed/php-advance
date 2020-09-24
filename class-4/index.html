@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascirpt Basic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h3>Title</h3>
+    <p><button class="button" id="new_button">Click Me</button></p>
+    <h3 class="title">Form</h3>
+    <form action="" id="single_form">
+      <label for="name">Name</label>
+      <p><input type="text" name="name" placeholder="Type Name" /></p>
+      <label for="email">Email</label>
+      <p><input type="email" name="email" placeholder="Type Email" /></p>
+      <label for="language">Language</label>
+      <p>
+        <select name="language">
+          <option value="none">Select One</option>
+          <option value="bangla">Bangla</option>
+          <option value="english">English</option>
+        </select>
+      </p>
+      <label for="gender">Gender</label>
+      <p>Male <input type="radio" value="male" name="gender" /> Female <input type="radio" value="female" name="gender" /></p>
+
+      <label for="gender">Hobbies</label>
+      <p>Footbal<input type="checkbox" value="football" name="hobbies" /> Vollyball<input type="checkbox" value="vollyball" name="hobbies" /></p>
+
+      <label for="gender">Description</label>
+      <p>
+        <textarea name="description" cols="30" rows="3" placeholder="Description"></textarea>
+      </p>
+      <p><button type="submit" id="submit">Submit</button></p>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>

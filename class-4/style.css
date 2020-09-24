@@ -1,0 +1,12 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  padding: 10px 15px;
+  text-align: center;
+}
+.btn.danger {
+  background: coral;
+  color: white;
+}
